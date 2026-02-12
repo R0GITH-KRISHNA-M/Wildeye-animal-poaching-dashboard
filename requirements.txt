@@ -1,0 +1,33 @@
+# --- Core Framework ---
+fastapi[standard]
+uvicorn
+httpx
+python-multipart
+
+# --- Computer Vision ---
+opencv-python
+ultralytics
+face_recognition
+cmake
+dlib
+
+# --- Machine Learning & AI ---
+torch
+torchvision
+torchaudio
+
+# --- Audio Processing (Gunshot Detector) ---
+tensorflow>=2.16.1
+tensorflow-hub
+librosa
+numpy<2.0.0,>=1.26.0
+
+
+#--- Python Env ---
+python -m venv win_env
+.\win_env\Scripts\activate
+
+
+#--- Dependecies ---
+pip install -r requirements.txt
+
