@@ -25,6 +25,7 @@ File Upload: File Picker + Multipart Upload
 UI: Material UI + Google Fonts
 
 📂 Project Structure
+
 frontend/
  ├ lib/
  │ ├ main.dart
